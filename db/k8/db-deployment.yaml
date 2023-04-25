@@ -17,9 +17,9 @@ spec:
         - name: mysql-container
           image: nyuappsec/assign3-db:v0
           env:
-            - name: MYSQL_ROOT_PASSWORD
-              value: thisisatestthing.
-
+            - name: secret-part-1a
+              value: password
+              
             - name: MYSQL_DATABASE
               value: GiftcardSiteDB
 
